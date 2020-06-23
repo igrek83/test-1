@@ -1,0 +1,11 @@
+.description__block-stars {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media all and (max-width: 1390px) {
+  .description__block-stars {
+    margin-bottom: 20px;
+  }
+}

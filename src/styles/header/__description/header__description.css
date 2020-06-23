@@ -1,0 +1,17 @@
+.header__description {
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+@media all and (max-width: 840px) {
+  .header__description {
+    font-size: 18px;
+    max-width: 300px;
+  }
+}
+@media all and (max-width: 420px) {
+  .header__description {
+    font-size: 14px;
+    max-width: 220px;
+  }
+}

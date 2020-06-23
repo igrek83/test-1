@@ -1,0 +1,14 @@
+.coach__vertical-line {
+  width: 155px;
+  height: 8px;
+  position: absolute;
+  transform: rotate(90deg);
+  background-color: #00008B;
+  right: 43%;
+  bottom: 95px;
+}
+@media all and (max-width: 1285px) {
+  .coach__vertical-line {
+    display: none;
+  }
+}

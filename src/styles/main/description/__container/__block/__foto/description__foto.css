@@ -1,0 +1,16 @@
+.description__foto {
+  width: 472px;
+  height: 472px;
+  background-size: cover;
+}
+@media all and (max-width: 1390px) {
+  .description__foto {
+    order: -1;
+  }
+}
+@media all and (max-width: 540px) {
+  .description__foto {
+    width: 280px;
+    height: 280px;
+  }
+}

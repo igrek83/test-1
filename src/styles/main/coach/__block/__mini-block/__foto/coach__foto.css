@@ -1,0 +1,17 @@
+.coach__foto {
+  width: 472px;
+  height: 472px;
+  background-size: cover;
+  margin-bottom: 60px;
+}
+@media all and (max-width: 1285px) {
+  .coach__foto {
+    margin-bottom: 20px;
+  }
+}
+@media all and (max-width: 500px) {
+  .coach__foto {
+    width: 272px;
+    height: 272px;
+  }
+}

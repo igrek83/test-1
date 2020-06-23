@@ -1,0 +1,16 @@
+.cost__title {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+@media all and (max-width: 700px) {
+  .cost__title {
+    font-size: 40px;
+  }
+}
+@media all and (max-width: 530px) {
+  .cost__title {
+    font-size: 30px;
+  }
+}

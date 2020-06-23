@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+  <title>test-1</title>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <h2 class="header__mini-title">COMPETITIVE EDGE</h2>
+      <h1 class="header__title">KICKBOXING</h1>
+      <p class="header__description">It's you, your gloves, the bag and 
+        <span class="header__description header__description_theme_italic">your inner champion</span>
+      </p>
+    </header>
+    <main class="main">
+      <section class="description">
+        <img src="<%=require(`./images/box.jpg`).default%>" alt="boxing glove" class="description__image">
+        <h2 class="description__title description__title_theme_top">COMPETE AGAINST THE</h2>
+        <h2 class="description__title description__title_theme_bottom">BEST VERSION OF YOURSELF.</h2>
+        <div class="description__block-stars">
+          <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="45" height="40" fill="#00008B" viewBox="0 0 56 57">
+            <path d="M22.1 8.3c-4.3 9.3-4 9.1-15.3 10.3-8.7.9-8.8 2-.4 10.3l6.3 6.3-1.8 10c-1.1 5.6-1.7 10.3-1.5 10.5.2.2 4.3-1.9 9-4.7l8.6-5.1 8.6 5.2c4.7 2.8 8.7 4.9 8.9 4.8.2-.2-.5-4.9-1.5-10.4l-1.9-10 7.6-7.7c8.7-8.7 9.2-7.8-5.1-9.8-4.4-.6-8-1.1-8.1-1.3-.1-.1-1.7-3.8-3.6-8.1-2-4.4-4.1-8.2-4.7-8.4-.7-.2-2.8 3.2-5.1 8.1z"/>
+          </svg>
+          <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="65" height="60" fill="#00008B" viewBox="0 0 56 57">
+            <path d="M22.1 8.3c-4.3 9.3-4 9.1-15.3 10.3-8.7.9-8.8 2-.4 10.3l6.3 6.3-1.8 10c-1.1 5.6-1.7 10.3-1.5 10.5.2.2 4.3-1.9 9-4.7l8.6-5.1 8.6 5.2c4.7 2.8 8.7 4.9 8.9 4.8.2-.2-.5-4.9-1.5-10.4l-1.9-10 7.6-7.7c8.7-8.7 9.2-7.8-5.1-9.8-4.4-.6-8-1.1-8.1-1.3-.1-.1-1.7-3.8-3.6-8.1-2-4.4-4.1-8.2-4.7-8.4-.7-.2-2.8 3.2-5.1 8.1z"/>
+          </svg>
+          <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="45" height="40" fill="#00008B" viewBox="0 0 56 57">
+            <path d="M22.1 8.3c-4.3 9.3-4 9.1-15.3 10.3-8.7.9-8.8 2-.4 10.3l6.3 6.3-1.8 10c-1.1 5.6-1.7 10.3-1.5 10.5.2.2 4.3-1.9 9-4.7l8.6-5.1 8.6 5.2c4.7 2.8 8.7 4.9 8.9 4.8.2-.2-.5-4.9-1.5-10.4l-1.9-10 7.6-7.7c8.7-8.7 9.2-7.8-5.1-9.8-4.4-.6-8-1.1-8.1-1.3-.1-.1-1.7-3.8-3.6-8.1-2-4.4-4.1-8.2-4.7-8.4-.7-.2-2.8 3.2-5.1 8.1z"/>
+          </svg>
+        </div>
+        <div class="description__container">
+          <div class="description__block">
+            <img src="<%=require(`./images/men.jpg`).default%>" alt="Roberto Wilkins" class="description__foto">
+            <div class="description__mini-block">
+              <h4 class="description__block-title">TRAIN = RESULTS!</h4>
+              <p class="description__text">Kickboxing is a total body head to toe workout. Get Results and Look Great!</p>
+              <h4 class="description__block-title">POWERFUL PERFORMANCE</h4>
+              <p class="description__text">Kickboxing develops strenght in the mind, body and spririt. Have FUN building a Better YOU!!</p>
+              <h4 class="description__block-title">A FITNESS PROGRAMM FOR ALL</h4>
+              <p class="description__text">Whether a beginner or expert you will progress to a heart
+                pounding & breath swallowing cardiovascular workout! Learn and Burn!
+              </p>
+            </div>
+          </div>
+          <div class="description__horizontal-line"></div>
+          <div class="description__block">
+            <div class="description__mini-block">
+              <h4 class="description__block-title">WHERE KICKBOXING MEETS SELF DEFENCE</h4>
+              <p class="description__text">Kickboxing is an explosive, power endurance sport.
+                Executing kicks and puncher, round after round, hitting the heavy bag or boxing mitts
+                challenges your power & endurance. Kickboxing is one of the most physically demanding sports of all.
+              </p>
+              <p class="description__text">The skill enhancement portion of your workout will consist of
+                shadow boxing, heavy bag work, focus mitts with a partner and
+                defensive drills.</p>
+              <p class="description__text">Learn how to slip and block kicks & punches to improve reaction
+                time and use counter techniques. This is where our championship
+                program prepares the "self worth defending"; If ever needed you
+                can apply these skills and successfully fend off attackers.</p>
+            </div>
+            <img src="<%=require(`./images/women.jpg`).default%>" alt="Roberto Wilkins" class="description__foto">
+          </div>
+        </div>
+      </section>
+      <section class="cost">
+        <div class="cost__container">
+          <div class="cost__stars">
+            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="#00008B" viewBox="0 0 56 57" class="cost__star">
+              <path d="M22.1 8.3c-4.3 9.3-4 9.1-15.3 10.3-8.7.9-8.8 2-.4 10.3l6.3 6.3-1.8 10c-1.1 5.6-1.7 10.3-1.5 10.5.2.2 4.3-1.9 9-4.7l8.6-5.1 8.6 5.2c4.7 2.8 8.7 4.9 8.9 4.8.2-.2-.5-4.9-1.5-10.4l-1.9-10 7.6-7.7c8.7-8.7 9.2-7.8-5.1-9.8-4.4-.6-8-1.1-8.1-1.3-.1-.1-1.7-3.8-3.6-8.1-2-4.4-4.1-8.2-4.7-8.4-.7-.2-2.8 3.2-5.1 8.1z"/>
+            </svg>
+            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="45" height="40" fill="#00008B" viewBox="0 0 56 57" class="cost__star">
+              <path d="M22.1 8.3c-4.3 9.3-4 9.1-15.3 10.3-8.7.9-8.8 2-.4 10.3l6.3 6.3-1.8 10c-1.1 5.6-1.7 10.3-1.5 10.5.2.2 4.3-1.9 9-4.7l8.6-5.1 8.6 5.2c4.7 2.8 8.7 4.9 8.9 4.8.2-.2-.5-4.9-1.5-10.4l-1.9-10 7.6-7.7c8.7-8.7 9.2-7.8-5.1-9.8-4.4-.6-8-1.1-8.1-1.3-.1-.1-1.7-3.8-3.6-8.1-2-4.4-4.1-8.2-4.7-8.4-.7-.2-2.8 3.2-5.1 8.1z"/>
+            </svg>
+            <h2 class="cost__title">SCHEDULE</h2>
+            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="45" height="40" fill="#00008B" viewBox="0 0 56 57" class="cost__star">
+              <path d="M22.1 8.3c-4.3 9.3-4 9.1-15.3 10.3-8.7.9-8.8 2-.4 10.3l6.3 6.3-1.8 10c-1.1 5.6-1.7 10.3-1.5 10.5.2.2 4.3-1.9 9-4.7l8.6-5.1 8.6 5.2c4.7 2.8 8.7 4.9 8.9 4.8.2-.2-.5-4.9-1.5-10.4l-1.9-10 7.6-7.7c8.7-8.7 9.2-7.8-5.1-9.8-4.4-.6-8-1.1-8.1-1.3-.1-.1-1.7-3.8-3.6-8.1-2-4.4-4.1-8.2-4.7-8.4-.7-.2-2.8 3.2-5.1 8.1z"/>
+            </svg>
+            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="#00008B" viewBox="0 0 56 57" class="cost__star">
+              <path d="M22.1 8.3c-4.3 9.3-4 9.1-15.3 10.3-8.7.9-8.8 2-.4 10.3l6.3 6.3-1.8 10c-1.1 5.6-1.7 10.3-1.5 10.5.2.2 4.3-1.9 9-4.7l8.6-5.1 8.6 5.2c4.7 2.8 8.7 4.9 8.9 4.8.2-.2-.5-4.9-1.5-10.4l-1.9-10 7.6-7.7c8.7-8.7 9.2-7.8-5.1-9.8-4.4-.6-8-1.1-8.1-1.3-.1-.1-1.7-3.8-3.6-8.1-2-4.4-4.1-8.2-4.7-8.4-.7-.2-2.8 3.2-5.1 8.1z"/>
+            </svg>
+          </div>
+          <div class="cost__block">
+            <div class="cost__mini-block">
+              <h4 class="cost__mini-title">LOREM IPSUM <span class="cost__span">$ 40</span></h4>
+              <p class="cost__text">Explignim rest hitatet liquid que exerrum eius si nis ex explitae nitas eat 
+                velenitiam hil ius eatat el illabo. Rum laci consequunti ditissequo mod evenimus endit atis ellitis 
+                quisquibus animpor ehenis
+              </p>
+            </div>
+            <div class="cost__mini-block">
+              <h4 class="cost__mini-title">LOREM IPSUM <span class="cost__span">$ 40</span></h4>
+              <p class="cost__text">Explignim rest hitatet liquid que exerrum eius si nis ex explitae nitas eat 
+                velenitiam hil ius eatat el illabo. Rum laci consequunti ditissequo mod evenimus endit atis ellitis 
+                quisquibus animpor ehenis
+              </p>
+            </div>
+            <div class="cost__mini-block">
+              <h4 class="cost__mini-title">LOREM IPSUM <span class="cost__span">$ 40</span></h4>
+              <p class="cost__text">Explignim rest hitatet liquid que exerrum eius si nis ex explitae nitas eat 
+                velenitiam hil ius eatat el illabo. Rum laci consequunti ditissequo mod evenimus endit atis ellitis 
+                quisquibus animpor ehenis
+              </p>
+            </div>
+            <div class="cost__mini-block">
+              <h4 class="cost__mini-title">LOREM IPSUM <span class="cost__span">$ 40</span></h4>
+              <p class="cost__text">Explignim rest hitatet liquid que exerrum eius si nis ex explitae nitas eat 
+                velenitiam hil ius eatat el illabo. Rum laci consequunti ditissequo mod evenimus endit atis ellitis 
+                quisquibus animpor ehenis
+              </p>
+            </div>
+          </div>
+          <button type="button" class="cost__button">BOOK A CLASS TODAY!</button>
+        </div>
+      </section>
+      <section class="coach">
+        <div class="coach__block">
+          <div class="coach__line"></div>
+          <div class="coach__vertical-line"></div>
+          <div class="coach__mini-block">
+            <img src="<%=require(`./images/men.jpg`).default%>" alt="Roberto Wilkins" class="coach__foto">
+            <h3 class="coach__name">ROBERTO</h3>
+            <h3 class="coach__surname">WILKINS</h3>.
+            <span class="coach__span">SENIOR TRAINER</span>
+          </div>
+          <div class="coach__mini-block">
+            <img src="<%=require(`./images/women.jpg`).default%>" alt="Juana Bailey" class="coach__foto">
+            <h3 class="coach__name">JUANA</h3>
+            <h3 class="coach__surname">BAILEY</h3>.
+            <span class="coach__span">WOMEN TRAINER</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>  
+</body>
+</html>

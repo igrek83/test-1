@@ -1,0 +1,12 @@
+.description__image {
+  width: 270px;
+  height: 230px;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+@media all and (max-width: 550px) {
+  .description__image {
+    width: 200px;
+    height: 150px;
+  }
+}

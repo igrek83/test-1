@@ -1,0 +1,10 @@
+@import url(./__foto/coach__foto.css);
+@import url(./__name/coach__name.css);
+@import url(./__surname/coach__surname.css);
+@import url(./__span/coach__span.css);
+.coach__mini-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}

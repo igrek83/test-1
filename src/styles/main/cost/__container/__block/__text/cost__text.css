@@ -1,0 +1,9 @@
+.cost__text {
+  font-size: 20px;
+  color: #000;
+}
+@media all and (max-width: 530px) {
+  .cost__text {
+    font-size: 12px;
+  }
+}

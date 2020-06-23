@@ -1,0 +1,11 @@
+.coach__span {
+  font-size: 30px;
+  font-weight: 400;
+  color: "#00008B";
+  line-height: 0;
+}
+@media all and (max-width: 500px) {
+  .coach__span {
+    font-size: 20px;
+  }
+}

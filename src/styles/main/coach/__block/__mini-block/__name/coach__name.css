@@ -1,0 +1,10 @@
+.coach__name {
+  font-size: 36px;
+  color: rgb(151, 36, 36);
+  font-weight: 500;
+}
+@media all and (max-width: 500px) {
+  .coach__name {
+    font-size: 26px;
+  }
+}

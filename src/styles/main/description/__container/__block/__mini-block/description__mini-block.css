@@ -1,0 +1,13 @@
+@import url(./__block-title/description__block-title.css);
+@import url(./__text/description__text.css);
+.description__mini-block {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  width: 53%;
+}
+@media all and (max-width: 1390px) {
+  .description__mini-block {
+    width: 85%;
+  }
+}

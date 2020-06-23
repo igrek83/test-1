@@ -1,0 +1,9 @@
+.cost__span {
+  font-size: 20px;
+  color: #00008B;
+}
+@media all and (max-width: 420px) {
+  .cost__span {
+    font-size: 14px;
+  }
+}

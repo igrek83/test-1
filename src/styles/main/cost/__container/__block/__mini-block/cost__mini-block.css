@@ -1,0 +1,13 @@
+@import url(./__mini-title/cost__mini-title.css);
+@import url(./__span/cost__span.css);
+@import url(./__text/cost__text.css);
+.cost__mini-block {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+@media all and (max-width: 530px) {
+  .cost__mini-block {
+    width: 100%;
+  }
+}

@@ -1,0 +1,14 @@
+@import url(./__mini-block/coach__mini__block.css);
+@import url(./__line/coach__line.css);
+@import url(./__vertical-line/coach__vertical-line.css);
+.coach__block {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+  position: relative;
+}
+@media all and (max-width: 1285px) {
+  .coach__block {
+    flex-direction: column;
+  }
+}

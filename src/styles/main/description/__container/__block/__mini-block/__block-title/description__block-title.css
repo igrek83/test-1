@@ -1,0 +1,12 @@
+.description__block-title {
+  color: rgb(151, 36, 36);
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+@media all and (max-width: 1390px) {
+  .description__block-title {
+    align-self: center;
+    text-align: center;
+  }
+}

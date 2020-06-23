@@ -1,0 +1,20 @@
+@import url(./__title/cost__title.css);
+@import url(./__star/cost__star.css);
+.cost__stars {
+  display: flex;
+  width: 540px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+@media all and (max-width: 700px) {
+  .cost__stars {
+    width: 400px;
+  }
+}
+@media all and (max-width: 530px) {
+  .cost__stars {
+    width: 100%;
+    justify-content: center;
+  }
+}

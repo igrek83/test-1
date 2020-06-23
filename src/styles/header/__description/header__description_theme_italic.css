@@ -1,0 +1,14 @@
+.header__description_theme_italic {
+  font-style: italic;
+  text-align: center;
+}
+@media all and (max-width: 840px) {
+  .header__description_theme_italic {
+    margin-left: 50px;
+  }
+}
+@media all and (max-width: 420px) {
+  .header__description_theme_italic {
+    margin-left: 35px;
+  }
+}

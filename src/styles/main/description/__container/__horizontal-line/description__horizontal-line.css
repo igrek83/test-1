@@ -1,0 +1,32 @@
+.description__horizontal-line {
+  width: 45%;
+  height: 5px;
+  background-color: #00008B;
+  position: relative;
+  margin-top: 35px;
+  margin-bottom: 37px;
+}
+.description__horizontal-line::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 5px;
+  background-color: #00008B;
+  transform: rotate(90deg);
+  top: -20px;
+}
+.description__horizontal-line::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 5px;
+  background-color: #00008B;
+  transform: rotate(90deg);
+  top: 20px;
+  right: 10px;
+}
+@media all and (max-width: 1390px) {
+  .description__horizontal-line {
+    display: none;
+  }
+}

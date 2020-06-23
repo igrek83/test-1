@@ -1,0 +1,21 @@
+.header__mini-title {
+  font-weight: 500;
+  font-size: 36px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+@media all and (max-width: 840px) {
+  .header__mini-title {
+    font-size: 30px;
+  }
+}
+@media all and (max-width: 620px) {
+  .header__mini-title {
+    font-size: 22px;
+  }
+}
+@media all and (max-width: 420px) {
+  .header__mini-title {
+    font-size: 16px;
+  }
+}

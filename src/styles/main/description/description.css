@@ -1,0 +1,15 @@
+@import url(./__image/description__image.css);
+@import url(./__title/description__title.css);
+@import url(./__title/description__title_theme_top.css);
+@import url(./__title/description__title_theme_bottom.css);
+@import url(./__block-stars/description__block-stars.css);
+@import url(./__container/description__container.css);
+.description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
