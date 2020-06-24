@@ -1,5 +1,5 @@
 {
-  "name": "test-1",
+  "name": "kickboxing",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/igrek83/test-1.git"
+    "url": "git+https://github.com/igrek83/kickboxing.git"
   },
-  "author": "",
+  "author": "Igor Golanov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/igrek83/test-1/issues"
+    "url": "https://github.com/igrek83/kickboxing/issues"
   },
-  "homepage": "https://github.com/igrek83/test-1#readme",
+  "homepage": "https://github.com/igrek83/kickboxing#readme",
   "devDependencies": {
     "@babel/cli": "7.8.4",
     "@babel/core": "7.8.7",
